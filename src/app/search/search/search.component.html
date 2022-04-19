@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="">
+        <div class="mb-2" fxLayout="row" fxLayoutAlign="space-between center">
+            <input class="form-control search" [(ngModel)]="userSearchQuery" (keyup)="doFilter($event)" type="text" name="search" autocomplete="off" placeholder="Search for a user" style="font-family: FontAwesome, Arial; font-style: normal">
+        <div class="header text-end">
+        <div >
+            <button class="search-button" type="submit" (click)="searchUser()">Search</button>
+        </div>
+    </div>
+    <!-- dynamic code  -->
+
+    <!-- <div class="user-details" *ngFor="let user of userSerachResults | filter:userSearchQuery">
+        <mat-card class="user-details-card">
+            <mat-card-title>User Details</mat-card-title>
+            <mat-card-subtitle>User Name</mat-card-subtitle>
+            <mat-card-content>
+                <p>
+                  About the user
+                </p>
+              </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>Login to view profile</button>
+            </mat-card-actions>
+          </mat-card>
+    </div> -->
+
+    <!-- static code -->
+    <div class="user-details">
+        <mat-card class="user-details-card">
+            <mat-card-title>User Details</mat-card-title>
+            <mat-card-subtitle>User Name</mat-card-subtitle>
+            <mat-card-content>
+                <p>
+                  About the user
+                </p>
+              </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>Login to view profile</button>
+            </mat-card-actions>
+          </mat-card>
+    </div>
+</div>

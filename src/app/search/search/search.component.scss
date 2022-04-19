@@ -1,0 +1,31 @@
+.container {
+    position: absolute;
+    top: 4rem;
+    margin: 1rem;
+    justify-content: space-between;
+}
+.search {
+    margin-right: 7px;
+    font-size: small;
+    font-weight: 400;
+    width: 12rem;
+    padding: 7px
+}
+.search-button {
+    margin-top: 1rem;
+    width: 5rem;
+    padding: 8px;
+    background: revert;
+    cursor: pointer;
+
+}
+.user-details {
+    position: absolute;
+    left: 20rem;
+    top: 1rem;
+    width: 100%;
+}
+.user-details-card {
+    // color: white;
+    width: 40rem;
+}

@@ -1,0 +1,63 @@
+.container {
+    background: #f5f7ff;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+ 
+}
+.box1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.dashboard {
+    position: absolute;
+    top: 1rem;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;    
+}
+.nav {
+    position: absolute;
+    top: 1rem;
+    display: flex;
+    width: 100%;
+    margin-top: -15px;
+}
+.nav-option {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+.nav-item:hover {
+    background: rgb(77, 77, 114);
+    padding: 0 10px;
+    color: white;
+}
+.dashboard:hover {
+    background: rgb(77, 77, 114);
+    padding: 10px;
+    color: white;
+}
+.card {
+    position: absolute;
+    align-items: center;
+    background: white;
+    width: 15rem;
+    top: 30%;
+}
+.option {
+    border-radius: 5px;
+    background: #f5f7ff;
+    padding: 10px !important;
+    margin-left: 15px !important;
+}
+.option:hover {
+    background: rgb(77, 77, 114);
+}
+.option-selected {
+    background-color: rgb(77, 77, 114);
+    color: white;
+    padding: 0 10px;
+}
